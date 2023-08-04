@@ -1,15 +1,21 @@
 #include <stdio.h>
 
+typedef struct ruas1e2{
+	char sinal1[50];
+	char sinal2[50];
+	
+}cruzamento;
+
+typedef struct fila{
+	cruzamento vetor[5];
+};
+
 int main(){
-	int x = 15; 
-	int y;
-	int *p;
+	printf("------------------------------------------");
+	printf("\nALUNO: Luan Victor Santana de Macêdo");
+	printf("\nDISCIPLINA: Estrutura de dados I");
+	printf("\nPROFESSOR: Leandro Melo");
+	printf("\n------------------------------------------");
 	
-	p = &x;
-	y = *p;
-	
-	printf("Endereco de x = %p \n", p);
-	printf("Valor apontado por p = %d \n", *p);
-	printf("Valor de y = %d \n", y);
 	
 }
